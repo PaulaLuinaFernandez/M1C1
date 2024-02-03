@@ -1,0 +1,69 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 20px;
+  }
+  .column1 {
+    background-color: red;
+  }
+  .column2 {
+    background-color: blue;
+  }
+  .column3 {
+    background-color: yellow;
+  }
+  .gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .gridThree img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .gridFour {
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  #paragraph3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gridFive {
+    background-color: lightgray;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+}
+.gridFive img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#pictures {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgrey;
+}
+.gridSix p {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+}
